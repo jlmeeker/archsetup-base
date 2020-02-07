@@ -29,6 +29,7 @@ fi
 cp -f dotfiles/.tmux.conf /home/$INSTALLUSER/
 mkdir -p /home/$INSTALLUSER/.config
 cp -af dotfiles/fish /home/$INSTALLUSER/.config/
+cp -af dotfiles/alacritty /home/$INSTALLUSER/.config/
 cp -f dotfiles/.xinitrc /home/$INSTALLUSER/
 
 # dotfile - fix perms
